@@ -15,31 +15,32 @@
     <!-- Icons -->
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
 
     <!-- Navbar -->
 
-    <nav>
+    <header>
 
-        <h1>Soumyadeep</h1>
+        <a href="#" class="logo">Soumyadeep</a>
 
-        <ul>
+        <i class="fas fa-bars" id="menu-icon"></i>
 
-            <li><a href="#home">Home</a></li>
+        <nav class="navbar">
 
-            <li><a href="#about">About</a></li>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
 
-            <li><a href="#projects">Projects</a></li>
+        </nav>
 
-            <li><a href="#skills">Skills</a></li>
-
-            <li><a href="#contact">Contact</a></li>
-
-        </ul>
-
-    </nav>
+    </header>
 
 
     <!-- Hero -->
@@ -147,34 +148,85 @@
 
 
     <!-- Projects -->
-
     <section id="projects">
 
         <h2 class="heading">Projects</h2>
 
-        <div class="cards">
+        <div class="projects-container">
 
-            <div class="card">
+            <div class="project-card">
 
-                <h3>Project One</h3>
+                <!-- <img src="images/project1.png" alt="Project 1"> -->
 
-                <p>Write description...</p>
+                <div class="project-content">
+
+                    <h3>Portfolio Website</h3>
+
+                    <p>
+                        A responsive portfolio website built using HTML, CSS and JavaScript.
+                    </p>
+
+                    <div class="project-buttons">
+
+                        <a href="https://soumyadeepmallick048.github.io/Portfolio/" class="demo-btn">Live Demo</a>
+
+                        <a href="https://github.com/SoumyadeepMallick048/Portfolio.git" class="github-btn">GitHub</a>
+
+                    </div>
+
+                </div>
 
             </div>
 
-            <div class="card">
 
-                <h3>Project Two</h3>
 
-                <p>Write description...</p>
+            <div class="project-card">
+
+                <!-- <img src="images/project2.png" alt="Project 2"> -->
+
+                <div class="project-content">
+
+                    <h3>Tic Tac Toe</h3>
+
+                    <p>
+                        A simple Tic Tac Toe game using HTML, CSS and JavaScript.
+                    </p>
+
+                    <div class="project-buttons">
+
+                        <a href="https://soumyadeepmallick048.github.io/Tic-Tac-Toe/" class="demo-btn">Live Demo</a>
+
+                        <a href="https://github.com/SoumyadeepMallick048/Tic-Tac-Toe.git" class="github-btn">GitHub</a>
+
+                    </div>
+
+                </div>
 
             </div>
 
-            <div class="card">
 
-                <h3>Project Three</h3>
 
-                <p>Write description...</p>
+            <div class="project-card">
+
+                <!-- <img src="images/project3.png" alt="Project 3"> -->
+
+                <div class="project-content">
+
+                    <h3>Coming Soon</h3>
+
+                    <p>
+                        More exciting projects will be added here.
+                    </p>
+
+                    <div class="project-buttons">
+
+                        <a href="#" class="demo-btn">Live Demo</a>
+
+                        <a href="#" class="github-btn">GitHub</a>
+
+                    </div>
+
+                </div>
 
             </div>
 
@@ -264,15 +316,23 @@
 
         <h2 class="heading">Contact</h2>
 
-        <p>
-            <i class="fas fa-envelope"></i>
-            soumyadeepmallick987@gmail.com
-        </p>
+        <div class="contact-details">
 
-        <p>
-            <i class="fas fa-phone"></i>
-            +91 7699868748
-        </p>
+            <div class="contact-row">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:soumyadeepmallick987@gmail.com">
+                    soumyadeepmallick987@gmail.com
+                </a>
+            </div>
+
+            <div class="contact-row">
+                <i class="fas fa-phone"></i>
+                <a href="tel:+917699868748">
+                    +91 7699868748
+                </a>
+            </div>
+
+        </div>
 
     </section>
 
